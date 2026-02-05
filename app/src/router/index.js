@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import CookieClicker from '@/views/CookieClicker.vue'
 import UserCreate from '@/views/UserCreate.vue'
+import AnimalViewer from '@/views/AnimalViewer.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +15,11 @@ const router = createRouter({
       path: '/user-create',
       name: 'user-create',
       component: UserCreate,
+    },
+    {
+      path: '/animal-view',
+      name: 'animal-view',
+      component: AnimalViewer,
     },
   ],
 })
