@@ -8,7 +8,6 @@
 
 <style scoped></style>
 
-
 <!-- <template>
   <div class="container">
     <h1>Cookie Clicker</h1>
