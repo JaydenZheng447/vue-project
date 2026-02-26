@@ -3,6 +3,7 @@ import CookieClicker from '@/views/CookieClicker.vue'
 import UserCreate from '@/views/UserCreate.vue'
 import AnimalViewer from '@/views/AnimalViewer.vue'
 import TestView from '@/views/TestView.vue'
+import VoteView from '@/views/Vote.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/test-view',
       name: 'test-view',
       component: TestView,
+    },
+    {
+      path: '/vote',
+      name: 'ligmaballs',
+      component: VoteView,
     },
   ],
 })
